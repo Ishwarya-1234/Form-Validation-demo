@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  font-family: "Segoe UI", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+.error-msg {
+  color: #dc3545;
+  font-size: 0.9rem;
+  margin-top: 3px;
+  display: none;
+}
+.success-input {
+  border: 2px solid #28a745 !important;
+  box-shadow: 0 0 5px #28a745;
+}
+.error-input {
+  border: 2px solid #dc3545 !important;
+  box-shadow: 0 0 5px #dc3545;
+}
